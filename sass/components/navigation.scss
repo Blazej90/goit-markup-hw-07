@@ -32,7 +32,7 @@ header {
     width: 1600px;
     border-bottom: 1px solid $whiteColor;
 
-    .navigation__logo {
+    &__logo {
       padding-top: 24px;
       padding-right: 93px;
       padding-bottom: 25px;
@@ -59,7 +59,7 @@ header {
       }
     }
 
-    .navigation__bookmarks {
+    &__bookmarks {
       > li > a {
         display: inline-flex;
         font-size: 14px;
