@@ -144,7 +144,7 @@ nav {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-box {
+.main {
   background-image: url(../images/picture-effective.jpg);
   width: 1600px;
   box-shadow: -1600px 22px 0px 1600px rgba(0, 0, 0, 0.5) inset;
@@ -152,7 +152,7 @@ nav {
   -moz-box-shadow: -1600px 22px 0px 1600px rgba(0, 0, 0, 0.5) inset;
 }
 
-.main-text {
+.main__text {
   font-size: 44px;
   color: rgba(255, 255, 255, 1);
   line-height: 1.4;

@@ -1,0 +1,28 @@
+body {
+  font-family: $mainFont;
+  color: $blackColor;
+
+  .container {
+    width: $containerWidth;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+}
+
+main {
+  width: 1600px;
+}
