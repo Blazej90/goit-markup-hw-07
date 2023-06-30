@@ -1,5 +1,5 @@
 /* ---- HOME PAGE ---- */
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: rgba(33, 33, 33, 1);
 }
@@ -142,9 +142,9 @@ nav {
   fill: rgba(33, 150, 243, 1);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.main {
+.order {
   background-image: url(../images/picture-effective.jpg);
   width: 1600px;
   box-shadow: -1600px 22px 0px 1600px rgba(0, 0, 0, 0.5) inset;
@@ -152,7 +152,7 @@ nav {
   -moz-box-shadow: -1600px 22px 0px 1600px rgba(0, 0, 0, 0.5) inset;
 }
 
-.main__text {
+.order__text {
   font-size: 44px;
   color: rgba(255, 255, 255, 1);
   line-height: 1.4;
@@ -163,7 +163,7 @@ nav {
   text-align: center;
 }
 
-.btn-order {
+.order__button {
   font-size: 16px;
   font-weight: 500;
   font-weight: bold;
@@ -195,16 +195,15 @@ nav {
   z-index: 9999;
 }
 
-.modal-content {
+.modal__content {
   background-color: rgba(255, 255, 255, 1);
   padding: 20px;
   border-radius: 4px;
-  /* height: 581px; */
   width: 528px;
   position: relative;
 }
 
-.modal-close {
+.modal__button-close {
   margin-top: 8px;
   width: 30px;
   height: 30px;
@@ -225,28 +224,28 @@ nav {
   display: none;
 }
 
-.modal-text > p {
+.modal__text > p {
   text-align: center;
   padding-top: 40px;
   font-weight: 700;
 }
 
-.data-form-text > p {
+.modal__form > p {
   font-weight: 700;
   color: black;
 }
 
-.id-placeholder-modal > label {
+.modal__placeholder > label {
   display: block;
 }
 
-.placeholder-modal-text {
+.modal__placeholder-text {
   color: rgba(117, 117, 117, 1);
   display: block;
   margin-bottom: 4px;
 }
 
-.input-modal > input {
+.modal__input > input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
@@ -258,15 +257,15 @@ nav {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-modal > input:focus {
+.modal__input > input:focus {
   border-color: rgba(33, 150, 243, 1);
 }
 
-.input-modal {
+.modal__input {
   position: relative;
 }
 
-.icon-modal {
+.modal__icon {
   position: absolute;
   top: 40%;
   left: 0;
@@ -277,15 +276,15 @@ nav {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-modal > svg:focus {
+.modal__icon > svg:focus {
   fill: rgba(33, 150, 243, 1);
 }
 
-.text-input-modal {
+.modal__input-text {
   padding-left: 40px;
 }
 
-.input-comment-modal > input {
+.modal__comment > input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 120px;
@@ -298,7 +297,7 @@ nav {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-comment-modal > input:focus {
+.modal__comment:focus {
   border-color: rgba(33, 150, 243, 1);
 }
 
@@ -309,18 +308,18 @@ nav {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.checkbox-modal > input {
+.modal__checkbox > input {
   width: 16px;
   height: 16px;
 }
 
-.checkbox-modal {
+.modal__checkbox {
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.privacy-text {
+.modal__privacy {
   display: inline-flex;
   align-items: center;
   margin: 0;
@@ -330,12 +329,12 @@ nav {
   text-align: center;
 }
 
-.privacy-text u {
+.modal__privacy u {
   text-decoration: underline;
   color: rgba(33, 150, 243, 1);
 }
 
-.btn-send-modal {
+.modal__button-send {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
@@ -345,7 +344,7 @@ main {
   width: 1600px;
 }
 
-.lorem-main-box {
+.description {
   display: flex;
   justify-content: center;
   padding-top: 94px;
@@ -353,22 +352,32 @@ main {
   padding-right: 215px;
 }
 
-.lorem-box {
+.description__list {
   margin-right: 30px;
 }
 
-.lorem-header {
-  padding-top: 30px;
-  margin: 0px;
-}
-
-.container-svg-lorem {
+.description__container {
   background-color: rgba(245, 244, 250, 1);
   width: 270px;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.description__header {
+  padding-top: 30px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.description__text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(117, 117, 117, 1);
+  box-sizing: border-box;
 }
 
 #icon-link,
@@ -418,19 +427,6 @@ main {
   padding-bottom: 18px;
   padding-left: 32px;
   padding-right: 32px;
-}
-
-.lorem-header {
-  font-size: 14px;
-  font-weight: bold;
-  box-sizing: border-box;
-}
-
-.lorem-text {
-  font-size: 14px;
-  line-height: 1.7;
-  color: rgba(117, 117, 117, 1);
-  box-sizing: border-box;
 }
 
 .what-we-do {

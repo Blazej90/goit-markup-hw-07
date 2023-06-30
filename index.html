@@ -52,48 +52,47 @@
       </header>
       <main>
         <div class="container">
-          <div class="main">
-            <h1 class="main__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button class="btn-order" type="button" data-modal-open>Zamów usługe</button>
+          <div class="order">
+            <h1 class="order__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="order__button" type="button" data-modal-open>Zamów usługe</button>
           </div> 
           <div class="modal" data-modal>
-            <div class="modal-content">
-              <button class="modal-close" type="button" data-modal-close>x</button>
-              <div class="modal-text">
-                <p class="data-form-text">Zostaw swoje dane w formularzu poniżej</p>
+            <div class="modal__content">
+              <button class="modal__button-close" type="button" data-modal-close>x</button>
+              <div class="modal__text">
+                <p class="modal__form">Zostaw swoje dane w formularzu poniżej</p>
               </div>
               <form>
-                    <label class="id-placeholder-modal">
-                      <label class="placeholder-modal-text">Imie</label>
-                        <div class="input-modal">
-                          <svg widt="16" height="16" class="icon-modal">
+                    <label class="modal__placeholder">
+                      <label class="modal__placeholder-text">Imie</label>
+                        <div class="modal__input">
+                          <svg widt="16" height="16" class="modal__icon">
                             <use href="./images/icons-modal.svg#icon-person-modal"></use>
                           </svg>
-                          <input type="text" name="name" class="text-input-modal" />
+                          <input type="text" name="name" class="modal__input-text" />
                         </div>
                     </label>
-                    <label class="id-placeholder-modal">
-                      <label class="placeholder-modal-text">Telefon</label>
-                        <div class="input-modal">
-                          <svg widt="16" height="16" class="icon-modal">
+                    <label class="modal__placeholder">
+                      <label class="modal__placeholder-text">Telefon</label>
+                        <div class="modal__input">
+                          <svg widt="16" height="16" class="modal__icon">
                             <use href="./images/icons-modal.svg#icon-phone-modal"></use>
                           </svg>
-                          <input type="text" name="telephone" class="text-input-modal" />
+                          <input type="text" name="telephone" class="modal__input-text" />
                         </div>
                     </label>
-                    <label class="id-placeholder-modal">
-                      <span class="placeholder-modal-text">Email</span>
-                        <div class="input-modal">
-                          <svg widt="16" height="16" class="icon-modal">
+                    <label class="modal__placeholder">
+                      <span class="modal__placeholder-text">Email</span>
+                        <div class="modal__input">
+                          <svg widt="16" height="16" class="modal__icon">
                             <use href="./images/icons-modal.svg#icon-envelope-modal"></use>
                           </svg>
-                          <input type="text" name="email" class="text-input-modal"  />
+                          <input type="text" name="email" class="modal__input-text"  />
                         </div>
                     </label>
-                  
-                    <label class="id-placeholder-modal">
-                      <span class="placeholder-modal-text">Komentarz</span>
-                        <div class="input-comment-modal">
+                    <label class="modal__placeholder">
+                      <span class="modal__placeholder-text">Komentarz</span>
+                        <div class="modal__comment">
                           <input 
                             type="text" 
                             name="comment" 
@@ -104,66 +103,66 @@
               </form>
               <form>
                 <label>
-                  <div class="checkbox-modal">
+                  <div class="modal__checkbox">
                     <input 
                       type="checkbox" 
                       name="privacy" 
                       value="checked" checked />
                   </div>
-                  <span class="privacy-text">Oświadczam iż akceptuję <u>Regulamin</u> i <u>Politykę Prywatności.</u></span>
+                  <span class="modal__privacy">Oświadczam iż akceptuję <u>Regulamin</u> i <u>Politykę Prywatności.</u></span>
                 </label>
               </form>
-                <div class="btn-send-modal">
+                <div class="modal__button-send">
                   <button type="submit">Wyślij</button>     
                 </div>
             </div>
           </div>
         </div> 
-        <ul class="lorem-main-box">
-          <li class="lorem-box">
-            <div class="container-svg-lorem">
-              <svg widt="70" height="70">
+        <ul class="description">
+          <li class="description__list">
+            <div class="description__container">
+              <svg class="description__icon" widt="70" height="70">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
             </div>
-            <p class="lorem-header">LOREM IPSUM</p>
-            <p class="lorem-text">
+            <p class="description__header">LOREM IPSUM</p>
+            <p class="description__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="lorem-box">
-            <div class="container-svg-lorem">
-              <svg widt="70" height="70">
+          <li class="description__list">
+            <div class="description__container">
+              <svg class="description__icon" widt="70" height="70">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
             </div>
-            <p class="lorem-header">LOREM IPSUM</p>
-            <p class="lorem-text">
+            <p class="description__header">LOREM IPSUM</p>
+            <p class="description__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="lorem-box">
-            <div class="container-svg-lorem">
-              <svg widt="70" height="70">
+          <li class="description__list">
+            <div class="description__container">
+              <svg class="description__icon" widt="70" height="70">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
             </div>
-            <p class="lorem-header">LOREM IPSUM</p>
-            <p class="lorem-text">
+            <p class="description__header">LOREM IPSUM</p>
+            <p class="description__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="lorem-box">
-            <div class="container-svg-lorem">
-              <svg widt="70" height="70">
+          <li class="description__list">
+            <div class="description__container">
+              <svg class="description__icon" widt="70" height="70">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
             </div>
-            <p class="lorem-header">LOREM IPSUM</p>
-            <p class="lorem-text">
+            <p class="description__header">LOREM IPSUM</p>
+            <p class="description__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
