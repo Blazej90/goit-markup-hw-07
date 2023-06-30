@@ -1,1 +1,16 @@
-$web-color: rgba(33, 150, 243, 1);
+///COLORS///
+$blueColor: rgba(33, 150, 243, 1);
+$whiteColor: rgba(236, 236, 236, 1);
+$blackColor: rgba(33, 33, 33, 1);
+$greyColor: rgba(117, 117, 117, 1);
+
+///FONTS///
+$mainFont: "Roboto", sans-serif;
+$logoFont: "Raleway", sans-serif;
+
+///SIZES///
+$containerWidth: 1200px;
+
+///EFFECTS///
+$transitionTime: 250ms;
+$transitionFunction: cubic-bezier(0.4, 0, 0.2, 1);
